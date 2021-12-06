@@ -1,4 +1,5 @@
 .main {
+
     width: 100%;
     max-width: 3000px;
     height: auto;
@@ -269,7 +270,7 @@
     text-align: center;
     margin-top: 70px;
     padding-top: 60px;
-    margin-left: 45%;;
+    margin-left: 45%;
     color: #1F3E1A;
 
 }
@@ -454,4 +455,177 @@
 a {
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 360px) {
+    .main {
+        width: 100%;
+    }
+    .inst {
+        width: 3%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .inst {
+        width: 7%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .inst {
+        width: 10%;
+    }
+    .g {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1366px) {
+    .inst {
+        width: 2%;
+    }
+    .tel {
+        width: 2%;
+    }
+    .btn1 {
+        width: 14%;
+    }
+    .Reg {
+        width: 2%;
+    }
+    .Enter {
+        width: 6%;
+    }
+    .mainLogo {
+        width: 13%;
+    }
+    .text1 {
+        width: 46%;
+    }
+    .bigLogo {
+        width: 26%;
+    }
+    .btnAdd {
+        width: 20.3%;
+    }
+    .navBar2 {
+        width: 65%;
+    }
+    .smallLogos {
+        width: 80%;
+    }
+    .tree {
+        width: 50%;
+    }
+    .textTree {
+        width: 100%;
+    }
+    .green {
+        width: 65%;
+    }
+    .g {
+        width: 100%;
+    }
+    .wlogo {
+        width: 30%;
+    }
+    .offerText1 {
+        width: 59%;
+    }
+    .btnOffer {
+        width: 27.9%;
+    }
+    .text5 {
+        width: 20%;
+    }
+    .partners {
+        width: 34%;
+        margin-left: 35%;
+    }
+    .carousel {
+        width: 80%;
+    }
+    .Newss {
+        width: 85%;
+    }
+    .newsTitle {
+        width: 50%;
+    }
+    /*.text_news1 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.eco_news {*/
+    /*    width: ;*/
+    /*}*/
+    /*.text_news1_inner {*/
+    /*    width: ;*/
+    /*}*/
+    /*.title_eco_news1 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.title_eco_news2 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.title_eco_news6 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.link_eco1 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.news2 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.title_eco_news3, .link_eco3, .title_eco_news, .link_eco4 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.news3 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.title_eco_news4 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.button1 {*/
+    /*    width: ;*/
+    /*}*/
+    /*.footer {*/
+    /*    width: ;*/
+    /*}*/
+    /*.fo {*/
+    /*    width: ;*/
+    /*}*/
+    /*.one, .two, .three, .four {*/
+    /*    width: ;*/
+    /*}*/
+    /*a {*/
+    /*    width: ;*/
+    /*}*/
+}
+@media screen and (max-width: 1920px) {
+    .inst {
+        width: 2%;
+        }
+    .tel {
+        width: 2%;
+    }
+    .btnAdd {
+        width: 20.3%;
+        margin-top: 450px;
+    }
+    .btn1 {
+        width: 14%;
+    }
+    .Enter {
+        width: 6%;
+    }
+    .Reg {
+        position: absolute;
+        margin-left: 78.54%;
+        margin-top: 2.63%;
+        margin-right: 15.97%;
+    }
+    .g {
+        width: 100%;
+    }
+}
+
+
 
