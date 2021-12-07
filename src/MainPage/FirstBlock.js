@@ -1,8 +1,7 @@
 import React, {useEffect} from "react";
 import "../MainPage/MainPage.css";
 import Form from "../MainPage/Form";
-import {useSelector} from "react-redux";
-import {useDispatch} from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import {logout} from "../reducers/UserReducer";
 import {auth} from "../entranceForm/action/user";
 
@@ -89,7 +88,7 @@ function FirstBlock() {
         <img className="bigLogo" src="./images/mainLogo2.svg" />
 
         <a href="#" onClick={toReg}>
-          <img className="btnAdd" src="./images/btnAdd.svg" />{" "}
+          {/*<img className="btnAdd" src="./images/btnAdd.svg" />{" "}*/}
         </a>
       </div>
     </div>
